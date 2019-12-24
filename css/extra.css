@@ -1,0 +1,33 @@
+/* styles added by mrhammadasif */
+
+.screen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+  z-index: 999;
+  opacity: 0;
+  transition: 1s all;
+  pointer-events: none;
+}
+
+.screen-overlay.show{
+  opacity: 1;
+  pointer-events: initial;
+}
+@media (max-width: 767px) {
+  .site-brand-logo-sticky {
+    top: 90px;
+    left: 20px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav-open .site-brand-logo-sticky.mobile-logo-show,
+  .site-brand-logo-sticky.mobile-logo-show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
