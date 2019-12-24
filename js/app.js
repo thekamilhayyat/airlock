@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   AOS.init();
   $('.testimonials-slider').slick({
     dots: true,
