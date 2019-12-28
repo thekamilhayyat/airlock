@@ -139,9 +139,9 @@ $('.panel-heading .clickable').parents(".panel").find('.panel-body').slideUp();
 $(document).on('click', '.panel-heading .clickable', function (e) {
   var $this = $(this);
   if ($this.hasClass('panel-collapsed')) {
-
     $this.parents('.panel').find('.panel-body').slideDown();
     $this.removeClass('panel-collapsed ');
+    $this.find(' .panel-title').addClass('.text-danger');
     $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
 
   } else {
