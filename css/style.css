@@ -7900,6 +7900,10 @@ color: #d2242a;
 .Step-setup .section-heading h3{
   font-size: 42px;
  }
+
+ .pz-our-blogs .aurmur-app{
+   margin-bottom: 26px!important;
+ }
 }
 
 .dropdown:hover>.dropdown-menu{
