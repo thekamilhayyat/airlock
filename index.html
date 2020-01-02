@@ -12,8 +12,16 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/fontawesome-stars.css">
   <link rel="icon" href="assets/footer-logo.png" type="image/gif">
+  <link rel="stylesheet" href="fonts/proxima/stylesheet.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/extra.css">
+  <style>
+    html,
+    body {
+      /* font-family: "proxima_nova_ltsemibold" !important; */
+    }
+  </style>
+
 </head>
 
 <body>
@@ -67,7 +75,7 @@
                 <li><a href="pricing.html">PRICING</a></li>
                 <li><a href="#">Blogs</a></li>
                 <li><a href="#">ABOUT</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -84,7 +92,6 @@
               <p>Automate Your Short-Term Rental<br>Operation</p>
               <a href="pricing.html" class="btn btn-rounded pz-awesome-btn">Buy Now <img src="assets/toka.png"
                   alt="Amazon Seller"></a>
-              <p class="after-button"><span>$4.99 </span>monthly subscription is required *</p>
             </div>
           </div>
         </div>
@@ -96,7 +103,7 @@
         <div class="row">
           <div class="col">
             <div class="section-heading center">
-              <h3>Our <span>Services</span></h3>
+              <h3>Our <span>Features</span></h3>
             </div>
           </div>
         </div>
@@ -159,7 +166,7 @@
       </div>
     </section>
     <section id="reviews" class="pz-our-blogs" data-aos="fade-up" data-aos-anchor-placement="top-center"
-      data-aos-duration="1000">
+      data-aos-duration="1000" style="border-top: 1px solid rgba(45, 45, 45, 0.07); background: #f8f8f8 ;">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -280,7 +287,7 @@
         </div>
         <div class="row">
           <div class="col">
-            <div class="section-heading center mt-5">
+            <div class="section-heading-md text-center mt-5">
               <h3>Or Build Your Own integration to Aurmur's API</h3>
               <a href="/lock.html" class="btn btn-round mt-3" style="padding: 9px 40px; font-size: 20px;">Contact
                 Us</a>
@@ -289,7 +296,7 @@
         </div>
       </div>
     </section>
-    <section id="reviews" class="pz-testimonials">
+    <section id="reviews" class="pz-testimonials" style="border-top: 1px solid rgba(45, 45, 45, 0.07);">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -300,20 +307,18 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5 pt-2">
           <div class="col-lg-6 col-md-6">
             <div class="text-left section-heading pt-5">
               <!-- <h3>AURMUR <span>APP</span></h3> -->
-              <p class=""><span class="font-weight-bold">With Armur apps, you can stau connected with your
-                  vacation rental business regardless of where you are </p>
+              <p class="armur-app-tag-line">With Armur apps, you can stau connected with your
+                vacation rental business regardless of where you are </p>
               <div class="text-left py-2">
-                <img src="assets/android_btn.png" class="img-fluid" alt="Secure">
+                <a href="#"><img src="assets/android_btn.png" class="img-fluid" alt="Secure"></a>
               </div>
               <div class="text-left py-2">
-                <img src="assets/apple_btn.png" class="img-fluid" alt="Secure">
+                <a href="#"><img src="assets/apple_btn.png" class="img-fluid" alt="Secure"></a>
               </div>
-
-
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
@@ -337,28 +342,53 @@
         <div class="pz-product-slider ">
           <div class="pz-single-product ">
             <div class="front-show text-left">
-              <p class="theme-red fontwe">1st Airbnb Lock...</p>
-              <p>Worked like a champ.Easy to install. Tech support was amazing and patient</p>
-              <p>They helped me in ithe intsallation of calibrate lock and it was doing good.Lock is GA and I am in Ca
-              </p>
-              <select class="rating-option">
-                <option value="1" selected>1</option>
-                <option value="2" selected>2</option>
-                <option value="3" selected>3</option>
-                <option value="4" selected>4</option>
-                <option value="5" selected>5</option>
-              </select>
-              <p class="font-weight-bold">Forrest G Reality,Inc</p>
+              <p class="theme-red font-weight-bold">1st Airbnb Lock...</p>
+              <div>
+                <p>Worked like a champ.Easy to install. Tech support was amazing and patient
+                  They helped me in ithe intsallation of calibrate lock and it was doing good.Lock is GA and I am in Ca
+                </p>
+              </div>
+              <div class="pt-5">
+                <select class="rating-option">
+                  <option value="1" selected>1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3" selected>3</option>
+                  <option value="4" selected>4</option>
+                  <option value="5" selected>5</option>
+                </select>
+                <p class="font-weight-bold">Forrest G Reality,Inc</p>
+              </div>
             </div>
           </div>
           <div class="pz-single-product ">
             <div class="front-show text-left">
               <p class="theme-red font-weight-bold">Airbnb Host Dream lock!! MUST HAVE</p>
-              <p>I've just purchased and installed my 3rd AirLocking setup.The update text message sedn to guests a
-                programmable amount of time before their arrival is very helpful</p>
-              <p>And as always, their support team is great at getting your setup. This is one of my favorite product on
-                amazon
-              </p>
+              <div>
+                <p>Best thing ever!! This lock works as promised, makes my life as an Airbnb Host sooo much easier and
+                  it's simple enough to use that my guests never have issues
+                </p>
+              </div>
+              <div class="pt-5">
+                <select class="rating-option">
+                  <option value="1" selected>1</option>
+                  <option value="2" selected>2</option>
+                  <option value="3" selected>3</option>
+                  <option value="4" selected>4</option>
+                  <option value="5" selected>5</option>
+                </select>
+                <p class="font-weight-bold ">Zobrist</p>
+              </div>
+            </div>
+          </div>
+          <div class="pz-single-product ">
+            <div class="front-show text-left">
+              <p class="theme-red  font-weight-bold">Best Decision</p>
+              <p>Two of the best decisions we have made for our short-term rental are utilizing the Aurmur Locking
+                System and finding an excellent person to clean. Aurmur makes to the entire process of keys streamlined.
+                Aurmur integrates into our AirBNB calendar and automatically sends our guest their door code with easy
+                instructions to our rental. Each guest has a unique code only usable during their stay. We also have
+                options to create other codes that we can track. Very useful tor cleaning person and family. I recommend
+                Aurmur to everyone that I know that has a short term rental </p>
               <select class="rating-option">
                 <option value="1" selected>1</option>
                 <option value="2" selected>2</option>
@@ -371,26 +401,10 @@
           </div>
           <div class="pz-single-product ">
             <div class="front-show text-left">
-              <p class="theme-red fontwe">1st Airbnb Lock...</p>
-              <p>Worked like a champ.Easy to install. Tech support was amazing and patient</p>
-              <p>They helped me in ithe intsallation of calibrate lock and it was doing good.Lock is GA and I am in Ca
-              </p>
-              <select class="rating-option">
-                <option value="1" selected>1</option>
-                <option value="2" selected>2</option>
-                <option value="3" selected>3</option>
-                <option value="4" selected>4</option>
-                <option value="5" selected>5</option>
-              </select>
-              <p class="font-weight-bold">Forrest G Reality,Inc</p>
-            </div>
-          </div>
-          <div class="pz-single-product ">
-            <div class="front-show text-left">
-              <p class="theme-red font-weight-bold">Airbnb Host Dream lock!! MUST HAVE</p>
+              <p class="theme-red font-weight-bold">I am 100% satisfied with their support team's assistance</p>
               <p>I've just purchased and installed my 3rd AirLocking setup.The update text message sedn to guests a
-                programmable amount of time before their arrival is very helpful</p>
-              <p>And as always, their support team is great at getting your setup. This is one of my favorite product on
+                programmable amount of time before their arrival is very helpful
+                And as always, their support team is great at getting your setup. This is one of my favorite product on
                 amazon
               </p>
               <select class="rating-option">
@@ -400,7 +414,7 @@
                 <option value="4" selected>4</option>
                 <option value="5" selected>5</option>
               </select>
-              <p class="font-weight-bold">Zobrist</p>
+              <p class="font-weight-bold">R.A.</p>
             </div>
           </div>
         </div>
@@ -439,7 +453,7 @@
                 <a href="#">About Us</a>
               </li>
               <li>
-                <a href="#">Contact US</a>
+                <a href="contact.html">Contact US</a>
               </li>
               <li>
                 <a href="#">Reviews</a>
