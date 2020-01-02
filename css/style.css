@@ -40,9 +40,9 @@
 *::before,
 *::after {
   box-sizing: border-box; }
-htm,body p{
-  font-family: 'Proxima Nova' !important;
-}
+/* htm,body p{
+  font-family:  R !important;
+} */
 
 html {
   font-family: sans-serif;
@@ -7397,7 +7397,8 @@ margin: 12px 0;}
         font-weight: light;
         transition: all 0.3s; }
       .main-footer .footer-menu li a {
-        font-size: 16px; }
+        font-size: 16px;
+      text-transform: uppercase; }
       .main-footer .footer-menu li:hover:before {
         left: 0; }
       .main-footer .footer-menu li:hover a {
