@@ -8348,9 +8348,9 @@ color: #d2242a !important;
   text-align: center !important;
   margin: 15px 0;
 }
-.btn-register .list{
+/* .btn-register .list{
   place-self: 18px !important;
-}
+} */
 .btn-register .list .para-icon{
   font-size: 14px !important;
   padding-right: 8px;
@@ -8467,6 +8467,7 @@ color: #d2242a !important;
     }
     .Step-setup .SS-card .setup-card-title{
       padding: 26px 0;
+      font-weight: 400 !important;
       font-size: 20px !important;
       font-family: "proxima_nova_ltsemibold" !important;
     }
@@ -8647,18 +8648,18 @@ margin: 12px 0;}
     margin-top: 1.8rem !important;
     margin-left: 4rem !important;
   }
-  .btn-register{
+  .btn-register-submit{
     font-family: "proxima_nova_ltsemibold" !important;
     border: 1px solid #d2242a;
     color: #d2242a;
-    /* text-align: center !important; */
+    text-align: center !important;
     background: #fff;
     border-radius: 26px;
     font-size: 14px;
     width: 240px !important;
     padding: 12px 34px;
 }
-.btn-register:hover{
+.btn-register-submit:hover{
   background:#d2242a !important;
   color: #fff !important;
 }
@@ -8707,7 +8708,7 @@ margin: 12px 0;}
     margin-top: 1.8rem !important;
     margin-left: 3.8rem !important;
   }
-  .btn-register{
+  .btn-register-submit{
     font-family: "proxima_nova_ltsemibold" !important;
     border: 1px solid #d2242a;
     color: #d2242a;
@@ -8717,7 +8718,7 @@ margin: 12px 0;}
     font-size: 14px;
     padding: 9px 24px;
 }
-.btn-register:hover{
+.btn-register-submit:hover{
   background:#d2242a !important;
   color: #fff !important;
 }
