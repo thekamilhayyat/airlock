@@ -8290,7 +8290,7 @@ color: #d2242a !important;
  .list i{
    color: #3db71d;
    background: #fff;
-   padding-right: 14px;
+   padding-right: 8px;
    font-size: 18px !important;
  }
  .Airbnb-img{
@@ -8300,7 +8300,8 @@ color: #d2242a !important;
  }
 .Air-img{
  text-align: center !important;
- max-width: 370px !important;
+ max-width: 450px !important;
+ height: auto;
 }
 .hub-img{
   max-width: 500px !important;
