@@ -58,7 +58,8 @@ $(document).ready(function () {
           slidesToScroll: 2,
           arrows: false,
           infinite: true,
-          dots: true
+          dots: true,
+          adaptiveHeight: true
         }
       },
       {
@@ -66,9 +67,21 @@ $(document).ready(function () {
         settings: {
           arrows: false,
           slidesToShow: 1,
+          adaptiveHeight: true,
           slidesToScroll: 1
         }
-      }
+      },
+      {
+        breakpoint: 370,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: false,
+          infinite: true,
+          dots: true,
+          adaptiveHeight: true
+        }
+      },
     ]
 
   });
