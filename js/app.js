@@ -1,42 +1,6 @@
 $(document).ready(function () {
 
   AOS.init();
-  // $('.testimonials-slider').slick({
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   arrows: true,
-  //   prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-right'></i>/button>",
-  //   nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right'></i></button>",
-  //   responsive: [
-  //     {
-  //       breakpoint: 992,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         arrows: false,
-  //         infinite: true,
-  //         dots: true
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 767,
-  //       settings: {
-  //         arrows: false,
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1
-  //       }
-  //     }
-  //   ]
-  // });
-
-  // $(".pz-product-slider ").each(function () {
-  //   //var theContent = $(this).text();
-  //   var theContent = $(this).html();
-  //   var n = theContent.substr(-25);
-  //   $(this).html('...' + n);
-  // });
-
   $('.pz-product-slider').slick({
     dots: true,
     infinite: true,
@@ -163,11 +127,11 @@ $(document).on('click', '.panel-heading .clickable', function (e) {
   var $this = $(this);
   if ($this.hasClass('panel-collapsed')) {
     $this.parents('.panel').find('.panel-body').slideDown();
+    $this.parents('.panel').find('.panel-title').addClass('text-danger');
     $this.removeClass('panel-collapsed ');
-    $this.find(' .panel-title').addClass('.text-danger');
     $this.find('i').removeClass('fa fa-plus').addClass('fa fa-minus');
-
   } else {
+    $this.parents('.panel').find('.panel-title').removeClass('text-danger');
     $this.parents('.panel').find('.panel-body').slideUp();
     $this.addClass('panel-collapsed');
     $this.find('i').removeClass('fa fa-minus').addClass('fa fa-plus');
